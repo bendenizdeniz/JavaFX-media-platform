@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddItemController">
+   <children>
+      <Label layoutX="81.0" layoutY="41.0" prefHeight="52.0" prefWidth="207.0" text="Sanatçı" textFill="#00d3ff">
+         <font>
+            <Font name="Microsoft YaHei Light" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="195.0" prefHeight="52.0" prefWidth="207.0" text="Albüm" textFill="#00d3ff">
+         <font>
+            <Font name="Microsoft YaHei Light" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="366.0" prefHeight="52.0" prefWidth="207.0" text="Şarkı" textFill="#00d3ff">
+         <font>
+            <Font name="Microsoft YaHei Light" size="25.0" />
+         </font>
+      </Label>
+
+      <TextField fx:id="txtSinger" layoutX="426.0" layoutY="48.0" prefHeight="38.0" prefWidth="330.0" />
+      <TextField fx:id="txtAlbum" layoutX="426.0" layoutY="202.0" prefHeight="38.0" prefWidth="330.0" />
+      <TextField fx:id="txtSing" layoutX="433.0" layoutY="373.0" prefHeight="38.0" prefWidth="330.0" />
+
+   </children>
+</AnchorPane>
